@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilos.css">
+    <title>Nutrifrut</title>
+</head>
+<body>
+
+    <!-- Encabezado -->
+    <header>
+        <div>
+            <img src="media/organica-.avif" alt="Logo de Nutrifruty" width="200" height="200">
+            <h1>NUTRIFRUT</h1>
+            <p>Calidad y variedad - venta al por mayor</p>
+        </div>
+    </header>
+
+    <!-- Barra de Navegación -->
+    <nav>
+        <ul>
+            <li><a href="#inicio">Inicio</a></li>
+            <li><a href="#servicios">Servicios</a></li>
+            <li><a href="#productos">Productos</a></li>
+        </ul>
+    </nav>
+
+    <!-- Contenido Principal -->
+    <main>
+        <section id="inicio">
+            <marquee behavior="scroll" direction="right" scrollamount="5">¡Bienvenidos a Nutrifrut!</marquee>
+        </section>
+
+        <section class="compra">
+            <h2>COMPRA YA!</h2>
+            <div class="image-container">
+                <img src="media/naranja.png" alt="Imagen de naranja" class="image">
+                <img src="media/fresa.png" alt="Imagen de fresa" class="image">
+                <img src="media/mango.webp" alt="Imagen de mango" class="image">
+            </div>
+        </section>
+
+        <!-- Formulario -->
+        <section class="Formulario">
+            <h2>Realiza tu pedido</h2>
+            <form>
+                <fieldset>
+                    <legend>Información del Cliente</legend>
+                    <label for="name">Nombre del cliente:</label><br>
+                    <input type="text" id="name" name="name" size="50"><br>
+
+                    <label for="email">Correo:</label><br>
+                    <input type="text" id="email" name="email" size="50"><br>
+
+                    <label for="direccion">Dirección:</label><br>
+                    <input type="text" id="direccion" name="direccion" size="50"><br>
+
+                    <label>Comentario:</label><br>
+                    <textarea name="comentario" id="comentario" cols="40" rows="5"></textarea><br>
+                </fieldset>
+
+                <fieldset>
+                    <legend>Elige tipo de pago:</legend><br>
+                    <select name="pago" id="pago">
+                        <option value="contado">Contado</option>
+                        <option value="credito">Crédito</option>
+                        <option value="transferencia">Transferencia</option>
+                    </select>
+                </fieldset>
+
+                <fieldset>
+                    <legend>Satisfacción por la atención:</legend><br>
+                    <input type="checkbox" id="bueno"> <label for="bueno">Bueno</label><br>
+                    <input type="checkbox" id="regular"> <label for="regular">Regular</label><br>
+                    <input type="checkbox" id="malo"> <label for="malo">Malo</label><br>
+                </fieldset>
+
+                <input type="submit" value="Enviar">
+                <input type="reset" value="Borrar">
+            </form>
+        </section>
+    </main>
+
+    <!-- Pie de Página -->
+    <footer>
+        <p>© 2024 Nutrifruty. Todos los derechos reservados. <br> Creado por: Alondra Vega</p>
+    </footer>
+
+</body>
+</html>
+

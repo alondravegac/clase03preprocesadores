@@ -1,0 +1,195 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Encabezado */
+header {
+    text-align: center;
+    padding: 20px;
+    background-color: #ffb58b;
+    font-size: larger;
+    text-shadow: -1px -1px 1px #aca8a8,
+    0px 4px 1px rgba(240, 68, 68, 0.5),
+    4px 4px 5px rgba(0, 0, 0, 0.7),
+    0px 0px 7px rgba(0, 0, 0, 0.4);
+
+}
+
+/* Estilo para el logo y el título en el encabezado */
+header img {
+    max-width: 100%;
+    height: auto;
+}
+
+header h1 {
+    margin: 10px 0;
+    font-size: 2.5em;
+}
+
+header p {
+    font-size: 1.2em;
+    color: #555;
+}
+
+/* Barra de Navegación */
+nav {
+    background-color: #FA8072;
+    padding: 20px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+nav li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.2em;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* Estilo para el contenido principal */
+main {
+    padding: 20px;
+}
+
+main h2 {
+    font-size: 2em;
+    margin-top: 0;
+}
+
+main img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Estilo general para las secciones */
+section {
+    margin: 20px;
+    padding: 15px;
+    border-radius: 8px;
+}
+
+/* Estilo para la sección con ID 'inicio' */
+#inicio {
+    background-color: #e0f7fa; 
+    text-align: center;
+}
+
+
+#inicio marquee {
+    font-size: 1.2em;
+    color: #004d40; 
+    background-color: #b2dfdb; 
+    padding: 10px;
+    border-radius: 5px;
+}
+
+/* Estilo general para el último <section> sin ID */
+section img {
+    display: block;
+    margin: 0 auto;
+    border: 3px solid #ffab00; 
+    border-radius: 8px;
+}
+
+section h2 {
+    font-size: 2em;
+    text-align: center;
+    color: #d32f2f; 
+}
+
+.compra {
+    text-align: center; 
+    margin: 20px;
+    padding: 15px;
+    background-color: rgb(248, 248, 209);
+}
+
+/* Contenedor de imágenes con Flexbox */
+.image-container {
+    display: flex; 
+    justify-content: center;
+    gap: 15px; 
+    flex-wrap: wrap; 
+}
+
+/* Estilo para las imágenes */
+.image {
+    height: 200px; 
+    width: auto; 
+    max-width: 100%;
+    border-radius: 8px;
+     }
+
+/* Formulario */
+form {
+    margin: 20px 0;
+    padding: 50px;
+}
+
+.Formulario{
+    background-color: #ff99d1;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+fieldset {
+    border: 1px solid #ccc;
+    padding: 15px;
+    margin-bottom: 20px;
+}
+
+legend {
+    font-weight: bold;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input[type="text"], textarea, select {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+}
+
+input[type="submit"], input[type="reset"] {
+    padding: 10px 20px;
+    margin-right: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+}
+
+input[type="reset"] {
+    background-color: #f44336;
+    color: white;
+}
+
+/* Pie de Página */
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #cc99ff;
+    color: white;
+}
